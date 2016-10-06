@@ -1,4 +1,56 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.jumbotron { background:url(main.jpg) center no-repeat; background-size: cover;}
+.jumbotron { 
+  background:url(main.jpg) 
+  center no-repeat; 
+  background-size: cover;
+  height: 600px;
+  opacity: 0.9;
+}
+
+/* typography */
+
+.text-success {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  padding-top: 120px;
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+h2 {
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  opacity: 0.7;
+}
+
+/* header */
+
+#logo {
+  font-weight: normal;
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  opacity: 0.8;
+  letter-spacing: +1px;
+  padding-top: 9px;
+}
+
+/* button */
+
+.btn-ghost {
+  background: transeparent;
+}
+
+/* navbar */
+.navbar {
+  background-color: rgba(0,0,0,0.2);
+}
