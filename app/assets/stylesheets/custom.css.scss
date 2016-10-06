@@ -7,6 +7,19 @@
   background-size: cover;
   height: 600px;
   opacity: 0.9;
+  margin-bottom: 0;
+}
+
+.pattern {
+  background:url(IMG1.jpg)
+  center no-repeat; 
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 /* typography */
@@ -44,6 +57,11 @@ h2 {
   padding-top: 9px;
 }
 
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* button */
 
 .btn-ghost {
@@ -53,4 +71,15 @@ h2 {
 /* navbar */
 .navbar {
   background-color: rgba(0,0,0,0.2);
+}
+
+/* footer */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+.footer {
 }
